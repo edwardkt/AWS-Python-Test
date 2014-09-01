@@ -13,12 +13,11 @@ Python 2.6 or 2.7. You can install Boto using pip:
 ## Basic Configuration
 
 You need to set up your AWS security credentials before the sample code is able
-to connect to AWS. You can do this by creating a file named "credentials" at ~/.aws/ 
-(C:\Users\USER_NAME\.aws\ for Windows users) and saving the following lines in the file:
+to connect to AWS. You can do this by creating a file named ~/.boto/ and saving the following lines in the file:
 
-    [default]
-    aws_access_key_id = <your access key id>
-    aws_secret_access_key = <your secret key>
+    [Credentials]
+    aws_access_key_id = your access key id
+    aws_secret_access_key = your secret key
 
 See the [Security Credentials](http://aws.amazon.com/security-credentials) page
 for more information on getting your keys. It's also possible to configure your
