@@ -9,6 +9,12 @@ This sample project depends on Boto, the AWS SDK for Python, and requires
 Python 2.6 or 2.7. You can install Boto using pip:
 
     pip install boto
+    
+    or you can install by source
+    
+    git clone git://github.com/boto/boto.git
+    cd boto
+    python setup.py install
 
 ## Basic Configuration
 
